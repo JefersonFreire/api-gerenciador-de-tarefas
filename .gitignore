@@ -1,0 +1,51 @@
+# Arquivo de ajuda do projeto (pode ser removido se quiser versioná-lo)
+HELP.md
+
+# Diretórios gerados pelo Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Evita adicionar arquivos de build gerados dentro de src (não é comum, mas pode acontecer)
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# Diretórios de saída de compilação
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+# Arquivos gerados pelo Spring Tool Suite (STS)
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# VS Code
+.vscode/
+
+# Arquivos de log
+*.log
+
+# Configurações de ambiente (para evitar expor credenciais)
+.env

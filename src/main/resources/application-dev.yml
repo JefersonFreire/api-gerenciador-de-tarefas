@@ -1,0 +1,9 @@
+spring:
+  datasource:
+   url: jdbc:postgresql://localhost:5433/gerenciador_tarefas_db
+   username: postgres
+   password: 151430
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
